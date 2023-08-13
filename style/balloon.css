@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+.test-div {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -175px;
+    padding: 22px;
+    border: 1px solid #ababab;
+    width: 350px;
+}
+
+.balloon-site-url {
+    display: inline;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    color: #005b7d;
+    text-decoration: underline;
+}
+.balloon-site-description {
+    font-size: 12px;
+    margin: 5px 0;
+}
+.ballon-away-icon {
+    vertical-align: top;
+}
+
+.balloon-site-name {
+    color: #5b5b5b;
+    margin-top: 5px;
+}
+
+.balloon-close {
+    float: right;
+    width: 12px;
+    height: 12px;
+    background: url(images/balloon-close.png) no-repeat;
+    cursor: pointer;
+}
+
+.balloon-ranks {
+    width: 100%;
+    margin: 18px -10px 15px;
+}
+
+.balloon-global-rank, .balloon-local-rank {
+    display: inline-block;
+    background: #f3f3f3;
+    padding: 12px 20px 6px 10px;
+    border-radius: 3px;
+    margin-left:5px;
+}
+
+.balloon-rank-image {
+    width: 16px;
+    height: 14px;
+    margin: 0 5px 2px 2px;
+    float: left;
+}
+.ballon-rank-image i{
+    width: 16px;
+    height: 9px;
+    padding-bottom:6px;
+}
+.balloon-rank-digit {
+    margin-right: 6px;
+    font-size: 24px;
+    float: left;
+}
+
+.balloon-rank-type {
+    font-size: 12px;
+    color: #5b5b5b;
+    float: left;
+}
+
+.balloon-users {
+    width: 100%;
+    margin-top: 18px;
+}
+
+.balloon-user-percentage {
+    vertical-align: middle;
+    width: 23%;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.balloon-description {
+    vertical-align: middle;
+    width: 73%;
+    display: inline-block;
+}
+
+.balloon-footer {
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #ababab;
+    height: 20px;
+}
+
+.balloon-copy-link {
+    float: right;
+    color: #5b5b5b;
+    border-bottom: 1px dotted #5b5b5b;
+    cursor: pointer;
+}
+
+.balloon-footer a {
+    color: #5b5b5b;
+}
+
+.balloon-footer img {
+    vertical-align: top;
+    margin-right: 4px;
+}
+
+.ballon-disclaimer {
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}

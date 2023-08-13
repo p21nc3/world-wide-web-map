@@ -1,0 +1,14 @@
+
+.payment select
+{
+    border: 1px solid;
+    border-color: gray;
+    padding: 1px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.payment input
+{
+    margin-top: 10px;
+}
